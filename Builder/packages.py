@@ -5,7 +5,7 @@ BASE = Packages(
 	pacman=DistributionPackages(
 		common=[
 			"pacman-contrib", "downgrade", "libnotify", "ffmpeg","ffmpegthumbnailer", "jq", "parallel", "kitty", "fastfetch", "lsd", "bat", "brightnessctl", 
-			"automake", "blueman", "bluez", "bluez-utils", "dunst", "fakeroot", "firefox", "fish", "fisher", "dpkg", "gcc", "git", "gnu-netcat", "btop", 
+			"automake", "blueman", "bluez", "bluez-utils", "dunst", "fakeroot", "fish", "fisher", "dpkg", "gcc", "git", "gnu-netcat", "btop", 
 			"micro", "mat2", "nemo", "papirus-icon-theme", "pavucontrol", "pamixer", "pipewire", "pipewire-pulse", "pipewire-audio",
 			"pipewire-jack", "pipewire-alsa", "wireplumber", "python-pyalsa", "ranger", "redshift", "reflector", "sudo", "tree", "unrar",
 			"zip", "unzip", "uthash", "ark", "cmake", "clang", "gzip", "imagemagick",
@@ -23,10 +23,10 @@ BASE = Packages(
 	),
 	aur=DistributionPackages(
 		common=[
-			"gnome-calculator-gtk3", "flameshot-git", "rofi-lbonn-wayland-git", "bibata-cursor-theme-bin", "tela-circle-icon-theme-dracula",
+			"flameshot-git", "rofi-lbonn-wayland-git", "bibata-cursor-theme-bin", "tela-circle-icon-theme-dracula",
 			"themix-theme-oomox-git", "themix-plugin-base16-git", "themix-icons-papirus-git", "themix-gui-git", "themix-export-spotify-git",
 			"themix-theme-materia-git", "oomox-qt5-styleplugin-git", "oomox-qt6-styleplugin-git", "cava", "pokemon-colorscripts",
-			"youtube-dl", "update-grub", "ttf-meslo-nerd-font-powerlevel10k", "visual-studio-code-bin"
+			"youtube-dl", "update-grub", "ttf-meslo-nerd-font-powerlevel10k", "visual-studio-code-bin", "google-chrome"
 		],
 		bspwm_packages=["i3lock-color", "picom-ftlabs-git"],
 		hyprland_packages=["hyprpicker", "swaylock-effects-git", "wlr-randr-git", "hyprprop", "grimblast-git"]
